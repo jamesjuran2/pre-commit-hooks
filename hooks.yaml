@@ -4,7 +4,7 @@
     entry: autopep8-wrapper
     language: python
     files: \.py$
-    args: [-i]
+    args: [-i, max-line-length, 128]
 -   id: check-added-large-files
     name: Check for added large files
     description: Prevent giant files from being committed
